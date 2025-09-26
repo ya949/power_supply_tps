@@ -1,0 +1,85 @@
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+/build
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Footprint association file (exported from Pcbnew)
+*.cmp
+
+# Exported BOM files
+*.xml
+*.csv
+*.tsv
+
+# Misc
+*.log
+*.raw
+.svg2shenzhen-cache
+
+# KiCad 6/7/8 user-specific files
+*.bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak2
+*.kicad_pcb-bak2
+*.dcm
+*.net
+*.xml
+
+# KiCad autosave and recovery
+_autosave-*
+*.tmp
+*.save
+
+# KiCad cache and sym-lib-table backups
+*-cache.lib
+*-rescue.lib
+sym-lib-table-bak
+fp-lib-table-bak
+
+# Gerbers, fabrication outputs, and exports
+*.gbr
+*.gtp
+*.gto
+*.gts
+*.gbl
+*.gbs
+*.gbp
+*.drl
+*.map
+*.pos
+*.zip
+*.pdf
+
+# Simulation files
+*.log
+*.raw
+*.out
+*.cir
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# KiCad lock files
+*.lck
+~_autosave-*.lck
