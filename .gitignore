@@ -83,3 +83,9 @@ Thumbs.db
 # KiCad lock files
 *.lck
 ~_autosave-*.lck
+
+# project junk
+PowerSupply-backups/
+\#auto_saved_files#/
+fp-info-cache
+*.lck
