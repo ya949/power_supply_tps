@@ -6246,7 +6246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LQM18PN4R7MFRL"
+		(property "Value" "IHLP2020CZER4R7M11"
 			(at 184.15 66.0399 0)
 			(effects
 				(font
@@ -6265,7 +6265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C114862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C845007.pdf"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -6274,7 +6274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "620mA 4.7uH ±20% 440mΩ 0603 Fixed Inductors ROHS"
+		(property "Description" "4.5A 4.7uH ±20% 5.2A 54mΩ 2020 Fixed Inductors ROHS"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -6283,7 +6283,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C114862"
+		(property "LCSC Part" "C845007"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -6300,7 +6300,7 @@
 				)
 			)
 		)
-		(property "Field7" "0603"
+		(property "Field7" ""
 			(at 182.88 64.77 0)
 			(effects
 				(font
