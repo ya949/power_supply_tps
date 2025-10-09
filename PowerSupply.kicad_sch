@@ -2583,6 +2583,12 @@
 		(uuid "002e21f3-e751-4da6-8558-e0e24633a5d7")
 	)
 	(junction
+		(at 185.42 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00b65348-ee60-4a96-9b6c-a53cfb82d188")
+	)
+	(junction
 		(at 139.7 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2641,6 +2647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39844a45-fcfd-4f76-b7fd-4ead6a54a296")
+	)
+	(junction
+		(at 153.67 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf6ae80-dac7-4ceb-8891-21fe8f6dafe7")
 	)
 	(junction
 		(at 149.86 90.17)
@@ -2811,18 +2823,6 @@
 		(uuid "ccf70fff-e4f4-46f9-bda3-a3a158367f1f")
 	)
 	(junction
-		(at 153.67 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d00a82b9-bed8-4187-9a31-c05f5283200d")
-	)
-	(junction
-		(at 185.42 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d459c7e5-677e-47cb-be2e-68f067259fa6")
-	)
-	(junction
 		(at 193.04 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2857,6 +2857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f46295ef-35bc-48c5-98b9-2570105ca997")
+	)
+	(junction
+		(at 170.18 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5bf82ca-4c6f-4fd5-b0f0-a20ce7bc2454")
 	)
 	(junction
 		(at 119.38 73.66)
@@ -3046,16 +3052,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 114.3) (xy 185.42 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bdeac47-bd7b-46b4-a594-3548b4d084df")
-	)
-	(wire
-		(pts
 			(xy 104.14 128.27) (xy 119.38 128.27)
 		)
 		(stroke
@@ -3076,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 64.77) (xy 153.67 62.23)
+			(xy 153.67 62.23) (xy 153.67 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3136,16 +3132,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 170.18 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34a7435f-9777-4957-9edb-f230d7cbb146")
-	)
-	(wire
-		(pts
 			(xy 96.52 153.67) (xy 104.14 153.67)
 		)
 		(stroke
@@ -3153,6 +3139,16 @@
 			(type default)
 		)
 		(uuid "3bb5b9cc-da14-4d05-858c-8cb86a345b05")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1fe883-7712-4df3-99ba-298cce735601")
 	)
 	(wire
 		(pts
@@ -3236,16 +3232,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 64.77) (xy 153.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b735250-12d1-45a7-ae42-cfdcc23acbcd")
-	)
-	(wire
-		(pts
 			(xy 76.2 66.04) (xy 101.6 66.04)
 		)
 		(stroke
@@ -3273,6 +3259,16 @@
 			(type default)
 		)
 		(uuid "51c8107b-ceb8-4f69-b79d-5b50e30c3c44")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 185.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53551fc2-17c4-4243-9fdd-f2deabdce8ac")
 	)
 	(wire
 		(pts
@@ -3426,6 +3422,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 64.77) (xy 153.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cb9271-b96b-4e7f-ad30-fe898003fcdf")
+	)
+	(wire
+		(pts
 			(xy 113.03 114.3) (xy 119.38 114.3)
 		)
 		(stroke
@@ -3463,6 +3469,16 @@
 			(type default)
 		)
 		(uuid "7ac8c08c-a2b1-4bc1-b692-626d233159a4")
+	)
+	(wire
+		(pts
+			(xy 170.18 111.76) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae413f3-49cb-4a32-9674-81467d5be532")
 	)
 	(wire
 		(pts
@@ -4136,6 +4152,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 114.3) (xy 170.18 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e54db9-ea98-4b64-8dd5-49b26dd91032")
+	)
+	(wire
+		(pts
 			(xy 196.85 124.46) (xy 196.85 139.7)
 		)
 		(stroke
@@ -4724,6 +4750,128 @@
 			(project "PowerSupply"
 				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
 					(reference "C314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CSD17310Q5A_1")
+		(lib_id "Transistor_FET:CSD17310Q5A")
+		(at 153.67 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25508b9d-067c-45f9-b148-283b75e7dc24")
+		(property "Reference" "Q2"
+			(at 155.956 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CSD17318Q2"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 158.75 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2862001.html?s_z=n_csd17318Q2"
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 25A 15.1mΩ@8V,8A 16W 1.2V 1 N-Channel WSON-6(2x2) Single FETs, MOSFETs ROHS"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2862001"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 153.67 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 153.67 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2fbf7d51-866d-47e2-bb39-8286c5b250bd")
+		)
+		(pin "4"
+			(uuid "52efc290-148d-4997-87c7-f30d79a004da")
+		)
+		(pin "1"
+			(uuid "ff60b341-9775-4786-8e79-6b605dd2326d")
+		)
+		(pin "3"
+			(uuid "94ed78ba-8bf2-4f20-bda0-b01469fd8184")
+		)
+		(pin "2"
+			(uuid "928df399-a705-4d00-8f3b-eb93ee54ab63")
+		)
+		(pin "6"
+			(uuid "80c77ea7-a5aa-4d7d-a264-6d5781425d2e")
+		)
+		(pin "5"
+			(uuid "8a9b0f27-4204-4922-acc2-df61ec4aca9b")
+		)
+		(pin "2"
+			(uuid "8be05808-4341-425e-909f-752ce40e7cab")
+		)
+		(pin "8"
+			(uuid "109571fe-d1f1-437b-a381-d5c617272cfa")
+		)
+		(pin "7"
+			(uuid "08823733-be07-4152-afb4-8c7680e2907e")
+		)
+		(instances
+			(project "PowerSupply"
+				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5543,128 +5691,6 @@
 			(project "PowerSupply"
 				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CSD17310Q5A_1")
-		(lib_id "Transistor_FET:CSD17310Q5A")
-		(at 153.67 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bcc8c56-4bba-431b-b26d-ccb2e7a04667")
-		(property "Reference" "Q2"
-			(at 155.956 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSD17318Q2T"
-			(at 161.29 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 158.75 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/csd17318q2"
-			(at 158.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 25A 15.1mΩ@8V,8A 16W 1.2V 1 N-Channel WSON-6(2x2) Single FETs, MOSFETs ROHS"
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2876303"
-			(at 153.67 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 153.67 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 153.67 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "609002fd-11b0-435f-afcd-882c472bc591")
-		)
-		(pin "4"
-			(uuid "a4859029-5237-47ec-92a7-74a19585a696")
-		)
-		(pin "1"
-			(uuid "9d3fadfb-720e-4686-88cd-57bc36ed99fe")
-		)
-		(pin "3"
-			(uuid "94f0be4f-1dab-4879-bfea-e030b0573476")
-		)
-		(pin "2"
-			(uuid "97a274b1-ab6d-4ca9-b5ac-1d3aefc27046")
-		)
-		(pin "6"
-			(uuid "72783098-eac0-4e6a-a5ca-7410193b1ce3")
-		)
-		(pin "5"
-			(uuid "f7dda2c0-ff1a-4e4e-a8b2-8aa9e974c653")
-		)
-		(pin "2"
-			(uuid "a4753379-c298-41e1-8def-5aebf5379bc9")
-		)
-		(pin "8"
-			(uuid "af182e02-7454-43cb-b73d-6ed1ab37471f")
-		)
-		(pin "7"
-			(uuid "907a6d55-b89b-4dd6-9107-8eeb80d642a3")
-		)
-		(instances
-			(project "PowerSupply"
-				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6830,7 +6856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88b64036-2f6d-4fb6-971f-862fc3e28afa")
-		(property "Reference" "TP48"
+		(property "Reference" "TP52"
 			(at 56.134 128.27 0)
 			(effects
 				(font
@@ -6882,7 +6908,7 @@
 		(instances
 			(project "PowerSupply"
 				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
-					(reference "TP48")
+					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -6906,7 +6932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "~"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -7677,7 +7703,7 @@
 				)
 			)
 		)
-		(property "Value" "CSD17318Q2T"
+		(property "Value" "CSD17318Q2"
 			(at 114.3 71.12 0)
 			(effects
 				(font
@@ -7696,7 +7722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/csd17318q2"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2862001.html?s_z=n_csd17318Q2"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -7715,7 +7741,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2876303"
+		(property "LCSC Part" "C2862001"
 			(at 106.68 78.74 0)
 			(effects
 				(font
