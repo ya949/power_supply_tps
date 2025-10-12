@@ -2559,131 +2559,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR010"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2879,12 +2754,6 @@
 		(uuid "22d9bfd6-4d66-4ba4-8ba8-5b20247e1665")
 	)
 	(junction
-		(at 45.72 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25d193e7-8abb-40f8-9ba1-f9acebe14940")
-	)
-	(junction
 		(at 58.42 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2991,12 +2860,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81906939-3d8a-441b-a1ac-f61d64d8b824")
-	)
-	(junction
-		(at 40.64 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "891f7403-eff2-4604-8bc3-5ace5da5c62c")
 	)
 	(junction
 		(at 205.74 124.46)
@@ -3184,12 +3047,6 @@
 		(color 0 0 0 0)
 		(uuid "f824513b-b78d-4473-a6e7-229c66a9ad6e")
 	)
-	(junction
-		(at 50.8 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8285d7c-bd8e-45eb-9170-a356fd9b15da")
-	)
 	(wire
 		(pts
 			(xy 132.08 71.12) (xy 137.16 71.12)
@@ -3262,16 +3119,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 176.53) (xy 69.85 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13848165-6a65-4086-a9ad-346d278e756f")
-	)
-	(wire
-		(pts
 			(xy 128.27 93.98) (xy 128.27 99.06)
 		)
 		(stroke
@@ -3289,16 +3136,6 @@
 			(type default)
 		)
 		(uuid "16c20530-464b-4d43-af56-670c92332486")
-	)
-	(wire
-		(pts
-			(xy 45.72 153.67) (xy 45.72 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "172eb52a-4044-41ae-a712-945d65b5ecd8")
 	)
 	(wire
 		(pts
@@ -3329,16 +3166,6 @@
 			(type default)
 		)
 		(uuid "1f3e1351-6a51-46c1-b00e-0df9f947e444")
-	)
-	(wire
-		(pts
-			(xy 50.8 173.99) (xy 50.8 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "202737a0-a5fc-4a69-8873-5ecd7249a085")
 	)
 	(wire
 		(pts
@@ -3512,16 +3339,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 160.02) (xy 50.8 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd3df8c-5788-46e5-8c50-9bd9303a3025")
-	)
-	(wire
-		(pts
 			(xy 161.29 114.3) (xy 175.26 114.3)
 		)
 		(stroke
@@ -3642,16 +3459,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 176.53) (xy 40.64 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c69cca0-8212-4be7-9c1e-2ddf83635271")
-	)
-	(wire
-		(pts
 			(xy 175.26 44.45) (xy 182.88 44.45)
 		)
 		(stroke
@@ -3732,16 +3539,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 181.61) (xy 69.85 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66bd8a3e-d2cd-49c8-a3b4-1f61d9e27f64")
-	)
-	(wire
-		(pts
 			(xy 119.38 73.66) (xy 119.38 76.2)
 		)
 		(stroke
@@ -3759,16 +3556,6 @@
 			(type default)
 		)
 		(uuid "68fe5e7e-5272-4c93-ac9f-da031b3070c2")
-	)
-	(wire
-		(pts
-			(xy 40.64 176.53) (xy 40.64 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a0ce010-ed10-4553-931d-90d14c956591")
 	)
 	(wire
 		(pts
@@ -4039,16 +3826,6 @@
 			(type default)
 		)
 		(uuid "8d1a21aa-80d7-46b6-897b-6755d90c8d2c")
-	)
-	(wire
-		(pts
-			(xy 40.64 160.02) (xy 40.64 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd01bf9-3467-4448-ac46-f641e80eefce")
 	)
 	(wire
 		(pts
@@ -4339,16 +4116,6 @@
 			(type default)
 		)
 		(uuid "b4087bd9-4639-478d-ab9e-d53fe7446638")
-	)
-	(wire
-		(pts
-			(xy 40.64 160.02) (xy 45.72 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e4a419-5dbb-4fc7-a4ea-2d425a42f276")
 	)
 	(wire
 		(pts
@@ -4652,16 +4419,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 160.02) (xy 50.8 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0e6ae74-719e-44bb-bc9b-e350f639129f")
-	)
-	(wire
-		(pts
 			(xy 224.79 127) (xy 224.79 129.54)
 		)
 		(stroke
@@ -4779,16 +4536,6 @@
 			(type default)
 		)
 		(uuid "f7eb79b2-3406-4ee0-8952-e6d7a4026eca")
-	)
-	(wire
-		(pts
-			(xy 35.56 181.61) (xy 50.8 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa815b3b-0a0d-4292-9492-dbe743559308")
 	)
 	(wire
 		(pts
@@ -4950,16 +4697,6 @@
 		)
 		(uuid "7befc14b-9c3a-4821-bcd4-c8e0541bf048")
 	)
-	(label "PURPLE_TPS_SCL"
-		(at 53.34 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8146d7bf-4391-42aa-a862-bb2423a91bc0")
-	)
 	(label "TPS_SW1"
 		(at 144.78 77.47 0)
 		(effects
@@ -4999,16 +4736,6 @@
 			(justify left bottom)
 		)
 		(uuid "9cc5a1f7-6fc3-4f1b-9b87-65d556cf90a6")
-	)
-	(label "PURPLE_TPS_SDA"
-		(at 53.34 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f926f8e-4d99-46a5-bbf5-7bbae70608c2")
 	)
 	(label "TPS_MODE_SEL"
 		(at 100.33 143.51 90)
@@ -6059,100 +5786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603WAF1003T5E")
-		(at 50.8 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3eb32744-42e5-4d2e-ae8b-fbfb6c38e351")
-		(property "Reference" "R6"
-			(at 54.102 168.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0603FR-0710KL"
-			(at 46.99 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 58.42 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
-			(at 60.96 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW 10kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C98220"
-			(at 63.5 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "10k"
-			(at 54.61 169.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "0603"
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33a87bd8-0d72-4996-8edb-2fe6496a2be9")
-		)
-		(pin "2"
-			(uuid "8608cbcc-2fed-43c9-93f9-829740e3f129")
-		)
-		(instances
-			(project "PowerSupply"
-				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 118.11 0)
 		(unit 1)
@@ -7103,100 +6736,6 @@
 			(project "PowerSupply"
 				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
 					(reference "TP46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0603WAF1003T5E")
-		(at 40.64 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ce10d0d-8380-42ea-ad95-5402fb793615")
-		(property "Reference" "R5"
-			(at 43.942 168.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0603FR-0710KL"
-			(at 36.83 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 48.26 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW 10kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
-			(at 40.64 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C98220"
-			(at 53.34 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "10k"
-			(at 44.45 169.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "0603"
-			(at 40.64 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f569ad35-aa14-4927-9e68-9907dafb50d1")
-		)
-		(pin "2"
-			(uuid "247c63a3-73d9-4882-afe3-997da0ce1646")
-		)
-		(instances
-			(project "PowerSupply"
-				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9879,71 +9418,6 @@
 			(project "PowerSupply"
 				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 45.72 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecf324c0-195a-4f8e-9002-70c6817161d0")
-		(property "Reference" "#PWR010"
-			(at 45.72 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3_PURPLE"
-			(at 45.974 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 45.72 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7b970f5-6291-469a-9278-d22caf5fa9b6")
-		)
-		(instances
-			(project ""
-				(path "/7b9226aa-0a63-42df-90a8-88ed8e87aaa5"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
